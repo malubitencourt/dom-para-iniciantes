@@ -19,6 +19,7 @@ const imgs = document.querySelectorAll('img');
 imgs.forEach((img) => {
  const possuiAlt = img.hasAttribute('alt');
  console.log(possuiAlt);
+ 
 });
 
 // Modifique o href do link externo no menu
